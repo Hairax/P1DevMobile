@@ -42,7 +42,7 @@ class SecondActivity : AppCompatActivity() {
             }
             else
             {
-                Toast.makeText(this, "credentials incorrects", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "credentials incorrect", Toast.LENGTH_SHORT).show()
             }
 
         }
