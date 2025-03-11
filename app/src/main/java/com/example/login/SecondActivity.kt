@@ -34,7 +34,7 @@ class SecondActivity : AppCompatActivity() {
             val name = txtName.text.toString()
             val pass = txtPass.text.toString()
 
-            if((name == "admin" && pass == "admin")|| (name == "rodri" && pass == "123"))
+            if((name == "admin" && pass == "admin")|| (name == "user1" && pass == "123"))
             {
                 val intent = Intent(this, ThirdActivity::class.java)
                 intent.putExtra("clientName", name)
